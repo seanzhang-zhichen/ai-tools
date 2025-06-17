@@ -1,0 +1,169 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/home",
+            "style": {
+                "navigationBarTitleText": "主页"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },
+        {
+            "path": "pages/register/register",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        },
+        {
+            "path": "pages/chatbot/chatbot",
+            "style": {
+                "navigationBarTitleText": "智能聊天机器人"
+            }
+        },
+        {
+            "path": "pages/music-generator/music-generator",
+            "style": {
+                "navigationBarTitleText": "AI音乐生成"
+            }
+        },
+        {
+            "path": "pages/name-generator/name-generator",
+            "style": {
+                "navigationBarTitleText": "AI宝宝取名"
+            }
+        },
+        {
+            "path": "pages/visual-processor/visual-processor",
+            "style": {
+                "navigationBarTitleText": "图片去水印"
+            }
+        },
+        {
+            "path": "pages/pdf-watermark/pdf-watermark",
+            "style": {
+                "navigationBarTitleText": "PDF去水印"
+            }
+        },
+        {
+            "path": "pages/my/my",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/purchase/points",
+            "style": {
+                "navigationBarTitleText": "积分"
+            }
+        },
+        {
+            "path": "pages/points/records",
+            "style": {
+                "navigationBarTitleText": "积分使用记录"
+            }
+        },
+        {
+            "path": "pages/user/edit-profile",
+            "style": {
+                "navigationBarTitleText": "编辑用户信息"
+            }
+        },
+        {
+            "path": "pages/agreement/user-agreement",
+            "style": {
+                "navigationBarTitleText": "用户协议"
+            }
+        },
+        {
+            "path": "pages/agreement/privacy-policy",
+            "style": {
+                "navigationBarTitleText": "隐私政策"
+            }
+        },
+        {
+            "path": "pages/feedback/feedback",
+            "style": {
+                "navigationBarTitleText": "意见反馈"
+            }
+        },
+        {
+            "path": "pages/about/about",
+            "style": {
+                "navigationBarTitleText": "关于我们"
+            }
+        },
+        {
+            "path": "pages/follow/follow",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/customer-service/customer-service",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/image-enhancer/image-enhancer",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/id-photo/id-photo",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/image-colorization/image-colorization",
+            "style": {
+                "navigationBarTitleText": "照片上色"
+            }
+        },
+        {
+            "path": "pages/image-segmentation/image-segmentation",
+            "style": {
+                "navigationBarTitleText": "智能抠图"
+            }
+        },
+        {
+            "path": "pages/background/background",
+            "style": {
+                "navigationBarTitleText": "图片添加背景"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Uni-app",
+        "backgroundColor": "#F8F8F8",
+        "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#6a11cb",
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "static/home.png",
+                "selectedIconPath": "static/home-slelected.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "static/my.png", 
+                "selectedIconPath": "static/my-slelected.png"
+            }
+        ]
+    }
+}

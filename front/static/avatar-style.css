@@ -1,0 +1,20 @@
+/* 全局统一的头像样式 */
+.avatar-container {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4rpx solid white;
+  box-shadow: 0 4rpx 10rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+
+.avatar-image {
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  object-fit: cover;
+} 

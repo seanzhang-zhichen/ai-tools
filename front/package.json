@@ -1,0 +1,22 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "AI工具-微信小程序",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-version": "node scripts/update-version.js",
+    "prebuild": "npm run update-version",
+    "predeploy": "npm run update-version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.7",
+    "qs": "^6.14.0"
+  }
+}
